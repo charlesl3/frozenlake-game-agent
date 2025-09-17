@@ -1,0 +1,20 @@
+# Virtual envs
+.venv/
+venv/
+
+# Caches / junk
+__pycache__/
+*.pyc
+.DS_Store
+
+# Logs & artifacts (these should be created at runtime)
+logs/
+artifacts/
+
+# Git/CI metadata
+.git/
+.github/
+
+# IDE
+.vscode/
+.idea/
