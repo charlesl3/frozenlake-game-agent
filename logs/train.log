@@ -1,0 +1,42 @@
+2025-09-14 22:26:35,259 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-14 22:26:35,259 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-14 22:26:35,259 - FrozenLake - INFO - No saved Q-table found. Initializing new table.
+2025-09-14 22:26:37,484 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-14 22:26:37,488 - FrozenLake - INFO - Average reward: 1.00
+2025-09-14 22:26:37,488 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-14 22:27:06,200 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-14 22:27:06,201 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-14 22:27:06,201 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-14 22:27:08,125 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-14 22:27:08,130 - FrozenLake - INFO - Average reward: 1.00
+2025-09-14 22:27:08,130 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-14 22:30:32,913 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-14 22:30:32,913 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-14 22:30:32,914 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-14 22:30:34,861 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-14 22:30:34,865 - FrozenLake - INFO - Average reward: 1.00
+2025-09-14 22:30:34,866 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-14 22:31:47,692 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-14 22:31:47,692 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-14 22:31:47,693 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-14 22:31:49,579 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-14 22:31:49,583 - FrozenLake - INFO - Average reward: 1.00
+2025-09-14 22:31:49,584 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-15 18:20:36,834 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-15 18:20:36,835 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-15 18:20:36,835 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-15 18:20:38,794 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-15 18:20:38,799 - FrozenLake - INFO - Average reward: 1.00
+2025-09-15 18:20:38,799 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-17 17:11:42,004 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-17 17:11:42,005 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-17 17:11:42,005 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-17 17:11:44,090 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-17 17:11:44,094 - FrozenLake - INFO - Average reward: 1.00
+2025-09-17 17:11:44,095 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv
+2025-09-17 17:14:19,597 - FrozenLake - INFO - Environment: FrozenLake-v1 with kwargs={'map_name': '8x8', 'is_slippery': False}
+2025-09-17 17:14:19,597 - FrozenLake - INFO - States: 64, Actions: 4
+2025-09-17 17:14:19,598 - FrozenLake - INFO - Loaded Q-table from artifacts/qtable_frozenlake.npy
+2025-09-17 17:14:21,677 - FrozenLake - INFO - Saved Q-table to artifacts/qtable_frozenlake.npy
+2025-09-17 17:14:21,682 - FrozenLake - INFO - Average reward: 1.00
+2025-09-17 17:14:21,682 - FrozenLake - INFO - Saved metrics to artifacts/metrics.csv

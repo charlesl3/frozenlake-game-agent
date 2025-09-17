@@ -1,0 +1,32 @@
+# ---------------------
+# Environment
+# ---------------------
+env_id: "FrozenLake-v1"
+env_kwargs:
+  map_name: "8x8"         # use "4x4" or "8x8"
+  is_slippery: false      # deterministic vs stochastic
+
+# ---------------------
+# Training / evaluation
+# ---------------------
+n_train_episodes: 20000
+n_eval_episodes: 100
+max_steps: 99
+
+# ---------------------
+# Exploration
+# ---------------------
+eps_max: 1.0
+eps_min: 0.01
+decay_rate: 0.00005
+
+# ---------------------
+# I/O
+# ---------------------
+qtable_path: "artifacts/qtable_frozenlake.npy"
+metrics_path: "artifacts/metrics.csv"
+
+# ---------------------
+# Optional seed
+# ---------------------
+seed: null   # set to integer for reproducibility
