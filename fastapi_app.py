@@ -1,11 +1,16 @@
-from fastapi import FastAPI
 import numpy as np
+import os
+from fastapi import FastAPI
 
-# Create the app
 app = FastAPI()
 
-# Load pretrained Q-table (make sure the file exists in artifacts/)
-Q = np.load("artifacts/qtable_frozenlake.npy")
+Q_PATH = "artifacts/qtable_frozenlake.npy"
+
+if os.path.exists(Q_PATH):
+    Q = np.load(Q_PATH)
+else:
+    Q = np.zeros((16, 4))  # trivial FrozenLake table (4x4 states, 4 actions)
+
 
 @app.get("/act")
 def get_action(state: int):
