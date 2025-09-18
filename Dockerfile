@@ -1,15 +1,20 @@
+# Use a lightweight Python base image
 FROM python:3.11-slim
 
-# 1) Workdir inside the container
+# Set the working directory inside the container
 WORKDIR /app
 
-# 2) Install deps (cache-friendly)
-COPY requirements.txt /app/
+# Copy requirements first (better caching)
+COPY requirements.txt .
+
+# Install dependencies (includes fastapi + uvicorn)
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 3) Copy the rest of your code
-COPY . /app
+# Copy the rest of the repo
+COPY . .
 
-# 4) Default command: run your RL script
+# Expose port 8000 for the API
+EXPOSE 8000
+
+# Default command: start FastAPI with uvicorn
 CMD ["uvicorn", "fastapi_app:app", "--host", "0.0.0.0", "--port", "8000"]
-
