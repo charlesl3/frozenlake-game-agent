@@ -20,7 +20,7 @@ logger = get_logger("FrozenLake")
 env = make_env(cfg["env_id"], **cfg["env_kwargs"])
 logger.info(f"Environment: {cfg['env_id']} with kwargs={cfg['env_kwargs']}")
 
-# Optional seeding
+# Optional seeding #
 if cfg["seed"] is not None:
     np.random.seed(cfg["seed"])
     random.seed(cfg["seed"])
