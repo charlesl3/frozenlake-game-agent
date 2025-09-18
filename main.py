@@ -7,7 +7,7 @@ from qlearning import train, evaluate
 from envs.frozenlake import make_env
 
 # -----------------------------
-# 1. Load config from YAML
+# 1. Load config from YAML #
 # -----------------------------
 with open("configs/frozenlake.yaml", "r") as f:
     cfg = yaml.safe_load(f)
