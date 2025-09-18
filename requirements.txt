@@ -2,3 +2,5 @@ numpy>=1.26
 pyyaml>=6.0
 pytest>=8.0
 gymnasium[toy_text]>=0.29
+fastapi
+uvicorn
