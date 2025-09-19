@@ -33,12 +33,12 @@ The project started as a simple Q-learning exercise and was gradually built up t
 - ✅ **Linting checks** with `flake8`.  
 - ✅ Configs in YAML (separation of code vs parameters).  
 
-### Level 4 — API & Deployment (in progress)
+### Level 4 — API Prototype
 - ✅ Added a **FastAPI service** (`fastapi_app.py`) to expose the agent via an API.  
 - Example endpoints:  
   - `/` → health check  
   - `/act?state=3` → get action for state=3 from the trained Q-table  
-- API runs via **Uvicorn**, can be containerized with Docker.  
+- API runs locally via **Uvicorn** (not containerized for now).  
 
 ---
 
@@ -70,7 +70,7 @@ pytest -q
 pytest --cov=. --cov-report=term-missing -q
 ```
 
-### 6. Run FastAPI (local server)
+### 6. Run FastAPI (local only)
 ```bash
 uvicorn fastapi_app:app --reload
 ```
@@ -78,10 +78,10 @@ Then open in browser:
 - Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
 - Example: [http://127.0.0.1:8000/act?state=3](http://127.0.0.1:8000/act?state=3)  
 
-### 7. Docker (training + API inside container)
+### 7. Docker (for training only, not API)
 ```bash
 docker build -t frozenlake-agent .
-docker run --rm -p 8000:8000 frozenlake-agent
+docker run --rm frozenlake-agent
 ```
 
 ---
@@ -100,7 +100,7 @@ FrozenLake/
 ├── artifacts/           # Saved metrics & Q-table
 ├── logs/                # Training logs
 ├── fastapi_app.py       # FastAPI service (expose trained agent)
-├── Dockerfile
+├── Dockerfile           # For training only
 ├── .dockerignore
 ├── requirements.txt
 ├── requirements-dev.txt
