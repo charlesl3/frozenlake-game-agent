@@ -1,4 +1,4 @@
-# 🎮 FrozenLake Game Agent
+# FrozenLake Game Agent
 
 A reinforcement learning (RL) agent trained on OpenAI’s **FrozenLake-v1** environment.  
 The project started as a simple Q-learning exercise and was gradually built up to follow **industry-style MLOps practices**.
@@ -86,7 +86,7 @@ docker run --rm frozenlake-agent
 
 ---
 
-## 📂 Repo Structure
+## Repo Structure
 ```
 FrozenLake/
 ├── main.py              # Entry point
