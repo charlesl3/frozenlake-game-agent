@@ -109,13 +109,6 @@ FrozenLake/
 
 ---
 
-## Why this project is useful
-- Demonstrates **RL concepts** in a very clear environment.  
-- Doubles as a **mini MLOps pipeline**: CI/CD, Docker, linting, coverage, API.  
-- Strong **resume project** — signals readiness for DS/DE/Quant roles.  
-
----
-
 ## Next Steps (future polish)
 - Add CI and coverage badges to README.  
 - Deploy FastAPI app to Render/Heroku for public demo.  
